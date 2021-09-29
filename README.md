@@ -1,5 +1,6 @@
 # Desafio Frontend
-Desafio do site https://devchallenge.com.br/
+Site do desafio: https://devchallenge.com.br/challenges/5ed47992adee277fae224a0b/details
+Site que eu desenvolvi: https://lipemachado.github.io/challengeFrontend-Codar/
 
 O desafio é criar uma página sobre uma empresa que desenvolve sites.
 
