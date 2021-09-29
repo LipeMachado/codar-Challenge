@@ -1,0 +1,54 @@
+.orcamentoSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    margin-left: 8em;
+
+    img {
+        width: 500px;
+        height: 415px;
+        transition: ease-in 0.4s;
+    
+        &:hover {
+            transition: ease-out 0.4s;
+            transform: scale(1.03);
+        }
+    }
+
+    .orcamentoSectionText {
+        padding-left: 10em;
+        
+        p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 900;
+            font-style: normal;
+            font-size: 60px;
+        }
+
+        div {
+            padding-top: 3.5em;
+
+            a {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 500;
+                color: @branco;
+                padding: 8px 55px;
+                font-size: 30px;
+                border-radius: 10px;
+                background-color: @vermelho;
+                
+                &:hover {
+                    background-color: @vermelho-claro;
+                }
+            }
+        }
+    }
+
+}

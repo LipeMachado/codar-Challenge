@@ -1,0 +1,76 @@
+footer {
+    font-family: 'Roboto', sans-serif;
+    background-color: @preto;
+    display: flex;
+    height: 20em;
+    padding: 5em 10em;
+    justify-content: space-between;
+    color: @branco;
+
+    a {
+        color: @branco;
+
+        &:hover {
+            color: @vermelho-claro;
+        }
+    }
+
+    p:hover {
+        color: @vermelho-claro;
+        cursor: default;
+    }
+}
+
+.logoFooter {
+    span {
+        color: @branco;
+    }
+}
+
+.sobre {
+    width: 180px;
+
+    h2 {
+        font-weight: 700;
+        justify-content: center;
+        cursor: default;
+    }
+
+    p {
+        padding-top: 1em;
+    }
+}
+
+.contato {
+    h2 {
+        font-weight: 700;
+        justify-content: center;
+        padding-bottom: 1em;
+        cursor: default;
+    }
+
+    p {
+        padding-bottom: 1em;
+    }
+}
+
+.socialMedias {
+
+    h2 {
+        cursor: default;
+    }
+
+    svg:hover {
+        fill: @branco;
+    }
+
+    .socialMediasIcons {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        a {
+            margin: 1em 0.8em;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.servicesSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    margin-left: 8em;
+
+    .imageService {
+        padding-left: 13em;
+
+        img {
+            width: 500px;
+            transition: ease-in 0.4s;
+
+            &:hover {
+                transition: ease-out 0.4s;
+                transform: scale(1.03);
+            }
+        }   
+    }
+
+    li {
+        list-style-type: none;
+        padding: 1em;
+    }
+
+    ul li a {
+        font-family: 'Roboto', sans-serif;
+        font-size: 2em;
+        cursor: default;
+    }
+}

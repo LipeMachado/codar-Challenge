@@ -1,0 +1,70 @@
+.cardSection {
+    height: 320px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+}
+
+.card {
+    width: 400px;
+    height: 144px;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 80px;
+    transition: all 0.3s ease-out;
+
+    .cardTitle {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .cardParagraph {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .image {
+        float: left;
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+    }
+
+    .cardText{
+        width: 15.625em;
+        margin-left: 6em;
+        align-items: center;
+    }
+
+    &:hover {
+        transform: translateY(-5px);
+        cursor: pointer;
+    }
+}
+
+.green {
+    border-left: 3px solid @verde;
+
+    &:hover {
+        border-left: 3px solid @roxo;
+    }
+}
+   
+.red {
+    border-left: 3px solid @verde;
+
+    &:hover {
+        border-left: 3px solid @roxo;
+    }
+}
