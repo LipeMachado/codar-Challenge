@@ -1,4 +1,4 @@
-# Desafio Frontend WebSite Codar
+# Desafio WebSite Codar | Frontend
 
 Site do desafio (Dev Challenge): <a href="https://devchallenge.com.br/challenges/5ed47992adee277fae224a0b/details" target="_blank">DevChallenge</a>
 
